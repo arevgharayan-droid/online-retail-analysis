@@ -34,7 +34,7 @@ ORDER BY month;
 -- 3. Top 10 products by revenue (service codes POST and M excluded)
 -- Findings:
 --   * #1 REGENCY CAKESTAND 3 TIER (~£142K): fewer units, higher price (~£11.50 per unit).
---   * JUMBO BAG RED RETROSPOT sold the most units (46,078) but is only #3 by revenue.
+--   * JUMBO BAG RED RETROSPOT sold the most units among the top 10 (46,078) but is only #3 by revenue.
 --   * Top 10 products = ~7.8% of revenue: revenue is spread across many products.
 SELECT
     StockCode,

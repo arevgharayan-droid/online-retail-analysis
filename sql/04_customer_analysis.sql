@@ -64,7 +64,7 @@ FROM customer_orders;
 -- 4. Cohort retention (cohort = first purchase month)
 -- Findings:
 --   * December 2010 cohort: 36.6% returned in month 1 (324 of 885),
---     and about 32-40% stayed active every month after that.
+--   --  About 32-40% were active again in months 1-10, and 50.3% in month 11 (November 2011).
 --   * This cohort includes older loyal customers (data starts in Dec 2010),
 --     so its retention is likely higher than for truly new cohorts.
 WITH customer_months AS (
